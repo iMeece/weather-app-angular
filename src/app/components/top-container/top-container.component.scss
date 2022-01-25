@@ -1,0 +1,29 @@
+#top-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    #time-box {
+        border: 1px solid black;
+        height: 150px;
+        min-width: 210px;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+
+    #info-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    #status-box {
+        border: 1px solid black;
+        height: 150px;
+        min-width: 210px;
+        text-align: end;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+}
